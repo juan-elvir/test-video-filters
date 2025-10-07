@@ -54,7 +54,7 @@ export default function App() {
       // const { data } = await axios.post("http://localhost:8080" + "/connect", {
       //   user_id: u.id
       // });
-      const token  = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoibWFuZ28iLCJleHAiOjE3NTk4NTc0MTB9.kKLpZ5q4UNJoJfkvatCNzo4f71VqkKOxl7br5yHGMJo"
+      const token  = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoibWFuZ28ifQ.5AwO04h1mBLkRKaYE3yUL5hVx1JFSj_C29ayHBvt4g0"
       console.log(token, u);
       setUser(u);
       const client = new StreamVideoClient({ apiKey, u, token });
